@@ -8,6 +8,6 @@ namespace MyPracticeCass.Models
 {
     public class Contexto : DbContext
     {
-        public DbSet<Productos> productos { get; set; }
+        public DbSet<Productos> Productos { get; set; }
     }
 }
